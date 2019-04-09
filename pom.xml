@@ -21,6 +21,8 @@
     <modules>
         <module>ConsulConfigDemo</module>
         <module>ConsulPush</module>
+        <module>SwaggerDemo</module>
+        <module>framework-starter-swagger</module>
     </modules>
 
     <properties>
