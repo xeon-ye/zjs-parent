@@ -13,5 +13,7 @@
        <version>{dozer-version}</version>
      </dependency>
 5 对于实际应用程序，建议不要在每次映射对象时创建一个新的 Mapper 实例，而是重新使用上次创建的 Mapper 实例，可以把 Mapper 封装成单例模式使用。
+ 
+6 用枚举实现单例MappingSingleton
 
   

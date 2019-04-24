@@ -39,7 +39,9 @@ public class DozerTest extends BaseTest{
     }
     @Test
     public void annotationsTest(){
-        Mapper mapper = DozerBeanMapperBuilder.buildDefault();
+       // Mapper mapper = DozerBeanMapperBuilder.buildDefault();
+        //单例实现
+        Mapper mapper = MappingSingleton.SINGLETON.getDefaultMapper();
         User user = new User();
         user.setName("hxy");
         user.setAge(123);
