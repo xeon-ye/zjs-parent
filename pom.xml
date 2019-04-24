@@ -23,6 +23,7 @@
         <module>ConsulPush</module>
         <module>SwaggerDemo</module>
         <module>framework-starter-swagger</module>
+        <module>DozerDemo</module>
     </modules>
 
     <properties>
@@ -38,6 +39,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>

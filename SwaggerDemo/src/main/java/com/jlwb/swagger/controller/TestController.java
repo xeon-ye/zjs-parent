@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.*;
 public class TestController {
 
     @ApiOperation(value = "用户查询", notes = "根据ID查询用户信息")
+    /**
+     * 返回汉字乱码，需要配置
+     */
     @GetMapping(value = "/demo",produces="text/html;charset=UTF-8")
     public String getTest() {
 

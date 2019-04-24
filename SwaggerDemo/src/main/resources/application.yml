@@ -1,19 +1,14 @@
-# Server configuration
-server:
-  port: 7001
 spring:
-  application:
-    name: swaggerDemo
-  messages:
-    encoding: utf-8
+  profiles:
+    active: dev
 #那个项目需要加入以下配置
-zjs:
-  swagger2:
-    enable: true
-    base-package: com.jlwb
-    title : 紫金山
-    description: jlwb  Restful API docs
-    version: 1.0
-    apiName: Authorization
-    apiKeyName: Authorization
-    reg: ^(?!demo).*$
+#zjs:
+#  swagger2:
+#    enable: true
+#    base-package: com.jlwb
+#    title : 紫金山
+#    description: jlwb  Restful API docs
+#    version: 1.0
+#    apiName: Authorization
+#    apiKeyName: Authorization
+#    reg: ^(?!demo).*$
