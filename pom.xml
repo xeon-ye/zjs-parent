@@ -24,6 +24,7 @@
         <module>SwaggerDemo</module>
         <module>framework-starter-swagger</module>
         <module>DozerDemo</module>
+        <module>zjs-commons</module>
     </modules>
 
     <properties>
